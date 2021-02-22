@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 const App = () => {
   return (
-    <>
+    <div className='container'>
       <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
+      <button className="header-button">HOME</button>
+    </div>
   );
 };
 export default App;
