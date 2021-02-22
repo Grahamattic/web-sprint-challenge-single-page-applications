@@ -1,5 +1,5 @@
 // Import React libraries from node_modules folder
-    import React from "react";
+    import React from 'react'
     import ReactDOM from "react-dom";
 
 // Import main stylesheet
