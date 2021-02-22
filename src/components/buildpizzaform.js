@@ -1,5 +1,38 @@
 // Import React library from node_modules folder
-    import React from 'react'
+    import React, { useState, useEffect } from 'react'
+
+// Inital States
+const initialOrderFormValues = {
+    // Text Inputs
+    name: '',
+    address: '',
+    aptsuite: '',
+    city: '',
+    state: '',
+    zip: '',
+    // Dropdown Menu
+    pickupordelivery: '',
+    // Topings Checklist
+    marinara: false,
+    cheese: false,
+    pepperoni: false,
+    mushrooms: false,
+    spinach: false,
+    onions: false,
+    bellpeppers: false,
+    blackolives: false,
+  }
+  const initialOrderFormErrors = {
+    name: '',
+    address: '',
+    aptsuite: '',
+    city: '',
+    state: '',
+    zip: '',
+    pickupordelivery: '',
+  }
+  const initialOrder = []
+  const initialDisabled = true
 
 // Build Pizza Form
     export default function BuildPizzaForm(props) {
