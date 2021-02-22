@@ -1,5 +1,6 @@
-// Import React library from node_modules folder
-    import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
+import "../index.css";
+
 
 // Inital States
 const initialOrderFormValues = {
